@@ -1,0 +1,19 @@
+{
+  "conductas": [
+    {
+      "id_tip": 1,
+      "nombre_tip": "conducta",
+      "descripcion": "Respetamos la prelación al peatón y le damos siempre"
+    },
+    {
+      "id_tip": 2,
+      "nombre_tip": "conducta",
+      "descripcion": "Respetamos las normas y señales de tránsito como semáforos en rojo, pasos peatonales y velocidad moderada."
+    },
+    {
+      "id_tip": 3,
+      "nombre_tip": "conducta",
+      "descripcion": "Transitamos por las CicloRutas cuando las hay. Cuando no, podemos transitar por la calzada ocupando un carril,preferiblemente el derecho."
+    }
+  ]
+}
