@@ -1,0 +1,89 @@
+{
+    "Localidades": [
+
+        { "id_localidad": 1,
+          "nombre_localidad": "Usaquen"
+
+        },  
+
+        {
+            "id_localidad": 2,
+            "nombre_localidad": "Chapinero"
+        },
+        {
+            "id_localidad": 3,
+            "nombre_localidad": "Santa Fe"
+        },
+        {
+            "id_localidad": 4,
+            "nombre_localidad": "San Cristóbal"
+        },
+        {
+            "id_localidad":5,
+            "nombre_localidad": "Usme"
+        },
+        {
+            "id_localidad": 6,
+            "nombre_localidad": "Tunjuelito"
+        },
+        {
+            "id_localidad": 7,
+            "nombre_localidad": "Bosa"
+        }
+        {
+            "id_localidad": 8,
+            "nombre_localidad": "Kennedy"
+        },
+        {
+            "id_localidad": 9,
+            "nombre_localidad": "Fontibón"
+        },
+        {
+            "id_localidad":10,
+            "nombre_localidad": "Engativá"
+        },
+        {
+            "id_localidad": 11,
+            "nombre_localidad": "Suba"
+        },
+        {
+            "id_localidad": 12,
+            "nombre_localidad": "Barrios Unidos"
+        },
+        {
+            "id_localidad": 13,
+            "nombre_localidad": "Teusaquillo"
+        },
+        {
+            "id_localidad": 14,
+            "nombre_localidad": "Los Mártires"
+        },
+        {
+            "id_localidad": 15,
+            "nombre_localidad": "Antonio Nariño"
+        },
+        {
+            "id_localidad": 16,
+            "nombre_localidad": "Puente Aranda"
+        },
+        {
+            "id_localidad": 17,
+            "nombre_localidad": "La Candelaria"
+        },
+       
+        {
+            "id_localidad": 18,
+            "nombre_localidad": "Rafael Uribe Uribe"
+        },
+        {
+            "id_localidad": 19,
+            "nombre_localidad": "Ciudad Bolivar"
+        }
+        {
+            "id_localidad": 20,
+            "nombre_localidad": "Sumapaz"
+        }
+
+    ]
+    
+}
