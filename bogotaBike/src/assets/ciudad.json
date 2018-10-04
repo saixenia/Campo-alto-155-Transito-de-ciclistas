@@ -1,8 +1,8 @@
 {
     "ciudad": [
 
-        { "id_genero":1,
-          "nombre_genero": "Bogotá"
+        { "id_ciudad":1,
+          "nombre_ciudad": "Bogotá"
 
         }
     ]
