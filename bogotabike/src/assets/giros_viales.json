@@ -1,0 +1,41 @@
+{
+    "giros_viales": [
+        {
+            "id_giro_vial": 1,
+            "nombre_tip": "giro_derecha",
+            "descripcion": {
+                "punto1": "Ubicate por delante o por detrás del vehículo motorizado",
+                "punto2": "Usa la señal manual de girar a la derecha.",
+                "punto3": "Por el costado derecho no puedes rebasar ningún vehículo"
+            },
+            "url":"./assets/imgs/tips/giros_viales/turn_right.PNG"
+        },
+        {
+            "id_giro_vial": 2,
+            "nombre_tip": "giro izquierda",
+            "descripcion": "Primero cruza la intersección por el carril derecho, y detente frente al tránsito viajando en el sentido deseado, Luego, al cambiar el semáforo a verde, avanza con el tránsito en la nueva dirección",
+            "url":"./assets/imgs/tips/giros_viales/turn_left.PNG"
+        },
+        {
+            "id_giro_vial": 2,
+            "nombre_tip": "giro sin cicloruta",
+            "descripcion": {
+                "punto1": "Disminuye la velocidad",
+                "punto2": "Identifica quien tiene la señal de pare y quien tiene la vía.",
+                "punto3": "Si tienes la señal de pare debes frenar y esperar el paso del vehículo",
+                "punto4": "Si tienes la vía continúa rodando siempre y cuando: Hayas hecho contacto visual o El vehículo se haya detenido por completo"
+            },
+            "url":"./assets/imgs/tips/giros_viales/sin_cicloruta.PNG"
+        },
+        {
+            "id_giro_vial": 3,
+            "nombre_tip": "giro con cicloruta",
+            "descripcion": {
+                "punto1": "Disminuye la velocidad",
+                "punto2": "dale prelación al peatón ",
+                "punto3": "Haz contacto visual con el vehículo detenido antes de cruzar"
+            },
+            "url":"./assets/imgs/tips/giros_viales/con_cicloruta.PNG"
+        }
+    ]
+}

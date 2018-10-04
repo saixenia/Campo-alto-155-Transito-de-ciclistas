@@ -1,0 +1,34 @@
+{
+    "normas": [
+        {
+            "id_norma": 1,
+            "nombre_tip": "norma",
+            "descripcion": "Ley 769 de 2002 Por la cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones"
+        },
+        {
+            "id_norma": 2,
+            "nombre_tip": "norma",
+            "descripcion": "Resolución 009 de 2002 Por medio de la cual se expiden normas relacionadas con el tránsito de vehículos no automotores"
+        },
+        {
+            "id_norma": 3,
+            "nombre_tip": "norma",
+            "descripcion": "Acuerdo 79 de 2003 Por el cual se expide el código de policía de Bogotá D.C."
+        },
+        {
+            "id_norma": 4,
+            "nombre_tip": "norma",
+            "descripcion": "Ley 1801 de 2016 Por la cual se expide el Código Nacional de Policía y Convivencia"
+        },
+        {
+            "id_norma": 5,
+            "nombre_tip": "norma",
+            "descripcion": "Ley 1811 de 2016 la cual se otorgan incentivos para promover el uso de la bicicleta en el territorio nacional y se modifica el código nacional de tránsito"
+        },
+        {
+            "id_norma": 6,
+            "nombre_tip": "norma",
+            "descripcion": "Resolución 160 de 2017 Por la cual se reglamenta el registro y la circulación de los vehículos automotores tipo ciclomotor, tricimoto y cuadriciclo y se dictan otras disposiciones"
+        }
+    ]
+}
