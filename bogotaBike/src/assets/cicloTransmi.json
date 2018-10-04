@@ -1,0 +1,134 @@
+{ "ciclopark_Transmilenio":[
+    {
+      "OBJECTID": 1,
+      "NAME": "Clinica Mederi  AK 30",
+      "DIRECCION": "Cl  24 No. 29 - 45",
+      "EMPRESA": "Parking International",
+      "TIPO": "Parqueadero Bici",
+      "CUPO_BICI": 38,
+      "x": -74.08228308000002,
+      "y": 4.623749778999979
+    },
+    {
+      "OBJECTID": 2,
+      "NAME": "Alcala",
+      "DIRECCION": "AK 45  x CL 136",
+      "EMPRESA": "",
+      "TIPO": "Punto de Encuentro",
+      "CUPO_BICI": 36,
+      "x": -74.05055671299999,
+      "y": 4.721401313999991
+    },
+    {
+      "OBJECTID": 3,
+      "NAME": "Tintal",
+      "DIRECCION": "AK 86 x CL 58 Sur",
+      "EMPRESA": "",
+      "TIPO": "Punto de Encuentro",
+      "CUPO_BICI": 36,
+      "x": -74.160553746,
+      "y": 4.638957932999972
+    },
+    {
+      "OBJECTID": 4,
+      "NAME": "Mundo Aventura",
+      "DIRECCION": "AC 6 x KR 71B",
+      "EMPRESA": "",
+      "TIPO": "Punto de Encuentro",
+      "CUPO_BICI": 36,
+      "x": -74.13438620800002,
+      "y": 4.62950745400002
+    },
+    {
+      "OBJECTID": 5,
+      "NAME": "Estacion Portal Suba",
+      "DIRECCION": "AC 145 x AK 104",
+      "EMPRESA": "",
+      "TIPO": "CicloEstacion",
+      "CUPO_BICI": 324,
+      "x": -74.09545712800002,
+      "y": 4.747039427000004
+    },
+    {
+      "OBJECTID": 6,
+      "NAME": "Estacion Portal Americas",
+      "DIRECCION": "AC 43 Sur  x AK 86",
+      "EMPRESA": "",
+      "TIPO": "CicloEstacion",
+      "CUPO_BICI": 785,
+      "x": -74.175047092,
+      "y": 4.630721763999986
+    },
+    {
+      "OBJECTID": 7,
+      "NAME": "Estacion Banderas",
+      "DIRECCION": "AC 6  x KR 78C",
+      "EMPRESA": "",
+      "TIPO": "CicloEstacion",
+      "CUPO_BICI": 101,
+      "x": -74.14610475400002,
+      "y": 4.630964315000028
+    },
+    {
+      "OBJECTID": 8,
+      "NAME": "Estacion Portal El Dorado",
+      "DIRECCION": "AC 26 x TV 95A",
+      "EMPRESA": "",
+      "TIPO": "CicloEstacion",
+      "CUPO_BICI": 332,
+      "x": -74.12186430100002,
+      "y": 4.68227121000001
+    },
+    {
+      "OBJECTID": 9,
+      "NAME": "Estacion AV. Rojas",
+      "DIRECCION": "AC 26 x AK 70",
+      "EMPRESA": "",
+      "TIPO": "CicloEstacion",
+      "CUPO_BICI": 104,
+      "x": -74.10919343799998,
+      "y": 4.661487938999983
+    },
+    {
+      "OBJECTID": 10,
+      "NAME": "Estacion Marsella",
+      "DIRECCION": "AC 6 x KR 69 F",
+      "EMPRESA": "",
+      "TIPO": "CicloEstacion",
+      "CUPO_BICI": 32,
+      "x": -74.13035980199999,
+      "y": 4.629827982999984
+    },
+    {
+      "OBJECTID": 11,
+      "NAME": "Estacion Pradera",
+      "DIRECCION": "AC 9 x KR  64A",
+      "EMPRESA": "",
+      "TIPO": "CicloEstacion",
+      "CUPO_BICI": 32,
+      "x": -74.11862966000001,
+      "y": 4.628531328999998
+    },
+    {
+      "OBJECTID": 12,
+      "NAME": "Estacion Quinta Paredes",
+      "DIRECCION": "AC 26 x KR 45",
+      "EMPRESA": "",
+      "TIPO": "CicloEstacion",
+      "CUPO_BICI": 48,
+      "x": -74.09284061300002,
+      "y": 4.637080538000021
+    },
+    {
+      "OBJECTID": 13,
+      "NAME": "Centro Comercial Unicentro",
+      "DIRECCION": "AK 15 No. 124-30",
+      "EMPRESA": "",
+      "TIPO": "Centro Comercial",
+      "CUPO_BICI": 50,
+      "x": -74.04275686900002,
+      "y": 4.700959022000006
+    }
+  
+  ]
+  }
