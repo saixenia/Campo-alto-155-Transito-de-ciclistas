@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { PerfilPage } from '../perfil/perfil';
+import { SignupPage } from '../signup/signup';
 
 /**
  * Generated class for the LoginPage page.
@@ -26,8 +28,16 @@ export class LoginPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad LoginPage');
   }
-  iniciarSession(){
-    console.log("usuario"+ this.usuario);
-    console.log("password"+this.contraseña);
+
+  ingresar(){
+
+    this.navCtrl.push(PerfilPage);
+
   }
+  registrarse(){
+
+        
+    this.navCtrl.push(SignupPage);
+  }
+
 }

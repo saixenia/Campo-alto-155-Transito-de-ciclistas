@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { RegistroProvider } from '../../providers/registro/registro';
 
-/**
- * Generated class for the SignupPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -15,15 +10,25 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class SignupPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  localidades: Array<any> = [ ];
+
+  constructor(public navCtrl: NavController,
+    public navParams: NavParams,
+    private servicioRegistro: RegistroProvider) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SignupPage');
-  }
-  registrarse(){
-
     
+    this.servicioRegistro.obtenerLocalidades().subscribe(
+      (datos: any[]) => {
+        this.localidades = datos;
+        console.log(this.localidades);
+      }
+    );
+  }
+  registrarse() {
+
+
   }
 
 }
