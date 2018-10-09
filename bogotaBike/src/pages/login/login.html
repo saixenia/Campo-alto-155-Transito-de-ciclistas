@@ -11,23 +11,29 @@
   </ion-navbar>
 
 </ion-header>
-
-
-
-<ion-content padding>
-  <ion-card center>
-  <ion-card-header>Datos del Usuario</ion-card-header>
+<ion-content padding >    
+  <ion-card center  >
+  <ion-card-header>
+      <ion-grid>
+          <ion-row>
+            <ion-col >
+              <a>Ingresar</a>
+            </ion-col>
+            <ion-col>Registrarse</ion-col>
+          </ion-row>
+        </ion-grid>
+  </ion-card-header>
   <ion-card-content>
-    <ion-list>
-      <ion-item>
-        <ion-input type="text" placeholder="usuario"></ion-input>
+    <ion-list>       
+      <ion-item >
+        <ion-input  id="bordes" type="text" placeholder="usuario"></ion-input>
       </ion-item>
       <ion-item>
         <ion-input type="password" placeholder="contraseña"></ion-input>
       </ion-item>
     </ion-list>
     <div padding>
-      <button ion-button block (click)="iniciarSession">Ingresar</button>
+      <button ion-button block (click)="iniciarSession" >Ingresar</button>
   </div>
   </ion-card-content>
   </ion-card>
