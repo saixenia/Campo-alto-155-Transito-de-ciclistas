@@ -11,6 +11,12 @@ import { HomePage } from '../pages/home/home';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { SignupPage } from '../pages/signup/signup';
 import { LoginPage } from '../pages/login/login';
+import { RutaPage } from '../pages/ruta/ruta';
+import { PerfilPage } from '../pages/perfil/perfil';
+import { TipsPage } from '../pages/tips/tips';
+import { BeneficiosPage } from '../pages/beneficios/beneficios';
+import { MapaPage } from '../pages/mapa/mapa';
+import { TabsPage } from '../pages/tabs/tabs';
 
 @NgModule({
   declarations: [
@@ -18,6 +24,12 @@ import { LoginPage } from '../pages/login/login';
     WelcomePage,
     LoginPage,
     SignupPage,
+    RutaPage,
+    PerfilPage,
+    TipsPage,
+    BeneficiosPage,
+    MapaPage,
+    TabsPage,
     HomePage
   ],
   imports: [
@@ -30,6 +42,12 @@ import { LoginPage } from '../pages/login/login';
     WelcomePage,
     LoginPage,
     SignupPage,
+    RutaPage,
+    PerfilPage,
+    TipsPage,
+    BeneficiosPage,
+    MapaPage,
+    TabsPage,
     HomePage
   ],
   providers: [
