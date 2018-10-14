@@ -1,12 +1,13 @@
 page-login {
 
- .login {
+ #login {
 
-    background: #D0D3D4; 
+    background: color($colors, myBackground);
+
  }
 
  .col {
-     background:  #D0D3D4;
+     background:  #DEE2E3;
  }
 
 }

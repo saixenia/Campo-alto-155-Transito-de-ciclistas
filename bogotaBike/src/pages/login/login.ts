@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { PerfilPage } from '../perfil/perfil';
 import { SignupPage } from '../signup/signup';
+import { ResetPasswordPage } from '../reset-password/reset-password';
 
 /**
  * Generated class for the LoginPage page.
@@ -39,5 +40,13 @@ export class LoginPage {
         
     this.navCtrl.push(SignupPage);
   }
+
+  resetPassword(){
+
+    this.navCtrl.push(ResetPasswordPage);
+
+  }
+
+
 
 }

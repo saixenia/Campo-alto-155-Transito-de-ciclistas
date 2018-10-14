@@ -1,19 +1,12 @@
-<!--
-  Generated template for the SignupPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>signup</ion-title>
+  <ion-navbar color="energy">
+    <ion-title>Regístrese</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding color="myBackground">
   <ion-card center>
     <ion-card-header>Datos del Usuario</ion-card-header>
     <ion-card-content>
@@ -28,14 +21,13 @@
         <ion-item ion-col col-12>
           <ion-label>Ciudad</ion-label>
           <ion-select>
-            <ion-option>bogota</ion-option>
+            <ion-option *ngFor="let ciudad of ciudades">{{ciudad.nombre_ciudad}}</ion-option>
           </ion-select>
         </ion-item>
-      <ion-item ion-col col-12>
+      <ion-item ion-col col-12 >
           <ion-label >Localidad</ion-label>
-          <ion-select>
-            <ion-option *ngFor="let localidad of localidades" 
-             value="{{localidad.id_localidad}}">{{localidad.nombre_localidad}}</ion-option>
+          <ion-select >
+            <ion-option *ngFor="let localidad of localidades">{{localidad.nombre_localidad}}</ion-option>
           </ion-select>
       </ion-item>
           <ion-item ion-col col-6>
@@ -69,10 +61,10 @@
           </ion-item>
         </ion-list>
         <div padding>
-          <button ion-button block (click)="registrarse()">Regitrarse</button>
+          <button ion-button block color="energy" (click)="registrarse()" round>Regitrarse</button>
         </div>
         <div padding>
-          <button ion-button block (click)="cancelar()">Cancelar</button>
+          <button ion-button block color="energy" (click)="cancelar()" round>Cancelar</button>
         </div>
       </form>
     </ion-card-content>
