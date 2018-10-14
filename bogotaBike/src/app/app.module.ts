@@ -21,13 +21,15 @@ import { PerfilProvider } from '../providers/perfil/perfil';
 import { RegistroProvider } from '../providers/registro/registro';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AlertasPage } from '../pages/alertas/alertas';
+import { ResetPasswordPage } from '../pages/reset-password/reset-password';
 
 @NgModule({
   declarations: [
     MyApp,
     WelcomePage,
    // LoginPage,
-    //SignupPage,
+    SignupPage,
+    ResetPasswordPage,
     RutaPage,
     PerfilPage,
     TipsPage,
@@ -48,7 +50,8 @@ import { AlertasPage } from '../pages/alertas/alertas';
     MyApp,
     WelcomePage,
    // LoginPage,
-   // SignupPage,
+    SignupPage,
+    ResetPasswordPage,
     RutaPage,
     PerfilPage,
     TipsPage,

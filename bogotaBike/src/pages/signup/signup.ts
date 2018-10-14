@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { RegistroProvider } from '../../providers/registro/registro';
+import { Subscriber } from 'rxjs/Subscriber';
 
 
 @IonicPage()
@@ -10,7 +11,8 @@ import { RegistroProvider } from '../../providers/registro/registro';
 })
 export class SignupPage {
 
-  localidades: Array<any> = [ ];
+  ciudades=[];
+  localidades=[];
 
   constructor(public navCtrl: NavController,
     public navParams: NavParams,
@@ -20,11 +22,12 @@ export class SignupPage {
   ionViewDidLoad() {
     
     this.servicioRegistro.obtenerLocalidades().subscribe(
-      (datos: any[]) => {
-        this.localidades = datos;
-        console.log(this.localidades);
-      }
-    );
+      (datos: any[]) => {this.localidades = datos;
+        console.log(this.localidades);},
+
+        (error)=>{console.log(error);}
+    ); 
+    
   }
   registrarse() {
 
