@@ -39,11 +39,11 @@ $colors: (
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
-  energy:   #ffa420,
-  myBackground: #DEE2E3
+  energy:     #ffa420,
+  myBackground: #c8c8c8
 );
 
-
+$toolbar-background: color($colors,energy);
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here

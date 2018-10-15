@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { LoginPage } from '../login/login';
 
 /**
  * Generated class for the PerfilPage page.
@@ -15,6 +16,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class PerfilPage {
 
+  images=['casco_1.png','casco_2.png','casco_3.png','casco_4.png','casco_5.png'];
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -22,4 +25,5 @@ export class PerfilPage {
     console.log('ionViewDidLoad PerfilPage');
   }
 
+ 
 }

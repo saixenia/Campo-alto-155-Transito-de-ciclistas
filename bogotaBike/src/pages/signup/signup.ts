@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { RegistroProvider } from '../../providers/registro/registro';
 import { Subscriber } from 'rxjs/Subscriber';
+import { TabsPage } from '../tabs/tabs';
 
 
 @IonicPage()
@@ -30,6 +31,8 @@ export class SignupPage {
     
   }
   registrarse() {
+
+    this.navCtrl.push(TabsPage);
 
 
   }
