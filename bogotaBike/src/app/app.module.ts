@@ -27,7 +27,7 @@ import { ResetPasswordPage } from '../pages/reset-password/reset-password';
   declarations: [
     MyApp,
     WelcomePage,
-   // LoginPage,
+    LoginPage,
     SignupPage,
     ResetPasswordPage,
     RutaPage,
@@ -49,7 +49,7 @@ import { ResetPasswordPage } from '../pages/reset-password/reset-password';
   entryComponents: [
     MyApp,
     WelcomePage,
-   // LoginPage,
+    LoginPage,
     SignupPage,
     ResetPasswordPage,
     RutaPage,
